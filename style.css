@@ -1,0 +1,95 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.player{
+width:350px;
+background:white;
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+.player img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+.player h2{
+margin-bottom:5px;
+}
+
+.player h4{
+color:gray;
+margin-bottom:20px;
+}
+
+.controls{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:20px 0;
+}
+
+.controls button{
+border:none;
+background:#667eea;
+color:white;
+padding:15px;
+border-radius:50%;
+cursor:pointer;
+font-size:18px;
+transition:.3s;
+}
+
+.controls button:hover{
+transform:scale(1.1);
+}
+
+.progress-container{
+width:100%;
+height:8px;
+background:#ddd;
+border-radius:10px;
+cursor:pointer;
+}
+
+.progress{
+height:100%;
+width:0%;
+background:#667eea;
+border-radius:10px;
+}
+
+.time{
+display:flex;
+justify-content:space-between;
+margin-top:8px;
+font-size:14px;
+}
+
+.volume-box{
+margin-top:20px;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.volume-box input{
+width:100%;
+}
